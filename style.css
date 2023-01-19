@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.725), rgba(0, 0, 0, 0.725));
+  background-size: cover;
+  background-position: center 21%;
+  padding: 80px 40px;
+  text-align: center;
+}
+
+header h1 {
+  color: white;
+  font-size: 3rem;
+  font-weight: 800;
+}
+
+.container {
+  display: flex;
+  margin: 0 auto;
+  position: absolute;
+  top: 200px;
+  left: 50%;
+  transform: translateX(-50%);
+  max-width: 550px;
+  width: 550px;
+}
+
+.container input,
+.container button {
+  border: 1px solid #d1d5db;
+  color: #374151;
+  font-size: 1em;
+  padding: 10px 40px;
+}
+
+.container input {
+  background: url("images/search-icon.svg") no-repeat scroll 10px 8px;
+  background-color: white;
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+  flex-grow: 2;
+}
+
+.container button {
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+  cursor: pointer;
+  background: white;
+}
+
+.movies-list {
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin: 4em auto;
+  max-width: 550px;
+}
+
+.card {
+  border-bottom: 1px solid #dfdddd;
+  margin-bottom: 1.5em;
+  padding-bottom: 1.5em;
+  display: flex;
+}
+
+.card-desc {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-poster {
+  width: 150px;
+  height: 220px;
+}
+
+.card-genre,
+.card-title {
+  margin-left: 30px;
+}
+
+footer {
+    text-align: center;
+}
+
+footer p {
+    margin: 20px;
+}
